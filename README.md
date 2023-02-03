@@ -1,2 +1,2 @@
-# hzzisbug.github.io
-个人博客
+# 大概是BUG
+好记性不如烂笔头
