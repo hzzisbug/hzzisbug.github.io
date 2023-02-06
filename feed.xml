@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>大概是BUG</title>
   <subtitle>使用github page白嫖一个博客!</subtitle>
-  <updated>2023-02-03T20:58:55+08:00</updated>
+  <updated>2023-02-06T22:10:22+08:00</updated>
   <author>
     <name>大概是BUG</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,82 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>开源协议理解</title>
+    <link href="http://localhost:4000/posts/%E5%BC%80%E6%BA%90%E5%8D%8F%E8%AE%AE%E7%90%86%E8%A7%A3/" rel="alternate" type="text/html" title="开源协议理解" />
+    <published>2023-02-06T11:33:00+08:00</published>
+  
+    <updated>2023-02-06T11:33:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E5%BC%80%E6%BA%90%E5%8D%8F%E8%AE%AE%E7%90%86%E8%A7%A3/</id>
+    <content src="http://localhost:4000/posts/%E5%BC%80%E6%BA%90%E5%8D%8F%E8%AE%AE%E7%90%86%E8%A7%A3/" />
+    <author>
+      <name>大概是BUG</name>
+    </author>
+
+  
+    
+    <category term="首页" />
+    
+    <category term="其他" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      傻瓜式的理解开源协议
+
+角度
+
+看到MIT,BSD,Apache意味着可以直接拿来使用。
+
+注意点：
+
+
+  
+    BSD不要拿作者/机构名字和原来产品的名字做市场推广 
+  
+  
+    MIT发行版里包含原许可协议的声明
+  
+  
+    Apache需要给代码的用户一份Apache Licence(修改说明…等)
+  
+
+
+至于GPL,MPL,LGPL作为学习使用就好了。
+
+注意点：
+
+
+  
+    共同点衍生产品必须开源
+  
+  
+    GPL不能改变协议
+  
+  
+    MPL修改出需要提供说明文档
+  
+
+
+个人总结
+
+只看三个MIT,BSD,Apache其余都不用看了。
+
+
+    </summary>
+  
+
+  </entry>
 
 </feed>
 
