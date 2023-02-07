@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>大概是BUG</title>
   <subtitle>使用github page白嫖一个博客!</subtitle>
-  <updated>2023-02-06T22:10:22+08:00</updated>
+  <updated>2023-02-07T23:28:27+08:00</updated>
   <author>
     <name>大概是BUG</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,75 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>常见版本号解析</title>
+    <link href="http://localhost:4000/posts/%E5%B8%B8%E8%A7%81%E7%89%88%E6%9C%AC%E5%8F%B7%E8%A7%A3%E6%9E%90/" rel="alternate" type="text/html" title="常见版本号解析" />
+    <published>2023-02-07T11:33:00+08:00</published>
+  
+    <updated>2023-02-07T11:33:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E5%B8%B8%E8%A7%81%E7%89%88%E6%9C%AC%E5%8F%B7%E8%A7%A3%E6%9E%90/</id>
+    <content src="http://localhost:4000/posts/%E5%B8%B8%E8%A7%81%E7%89%88%E6%9C%AC%E5%8F%B7%E8%A7%A3%E6%9E%90/" />
+    <author>
+      <name>大概是BUG</name>
+    </author>
+
+  
+    
+    <category term="首页" />
+    
+    <category term="其他" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      我们常见的版本号命名规则为：
+
+[name].x.y.z-[state]
+
+name 和 state 是可选字段。比较简单的为 x.y.z
+
+x、y、z为非负整数
+
+主版本号(x)：表示项目的重大架构变更
+次版本号(y)：表示较大范围的功能添加和变化
+增量版本号(z)：一般表示bug修复
+
+0.y.z 表示当前软件处于研发阶段，软件并不稳定
+
+1.0.0 表示当前软件为初始的稳定版，后续的更新都基于此版本
+
+name 字段
+
+一般情况下忽略或者多使用Version或 V 字母
+
+state 字段
+
+常见有
+
+  Alpha：内部测试版
+  Beta：外部测试版
+  Build：修正版
+  DEMO：演示版，有功能限制
+  Free：免费版
+  Full：完全版
+  Final：正式版
+  Pro(professional)：专业版
+  Plus：加强版
+  Release：发行版，有...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -48,27 +117,25 @@
 
 
 
-      傻瓜式的理解开源协议
+      角度
 
-角度
-
-看到MIT,BSD,Apache意味着可以直接拿来使用。
+看到MIT ,BSD ,Apache 意味着可以直接拿来使用。
 
 注意点：
 
 
   
-    BSD不要拿作者/机构名字和原来产品的名字做市场推广 
+    BSD 不要拿作者/机构名字和原来产品的名字做市场推广 
   
   
-    MIT发行版里包含原许可协议的声明
+    MIT 发行版里包含原许可协议的声明
   
   
-    Apache需要给代码的用户一份Apache Licence(修改说明…等)
+    Apache 需要给代码的用户一份Apache Licence(修改说明…等)
   
 
 
-至于GPL,MPL,LGPL作为学习使用就好了。
+至于GPL ,MPL ,LGPL 作为学习使用就好了。
 
 注意点：
 
@@ -77,16 +144,16 @@
     共同点衍生产品必须开源
   
   
-    GPL不能改变协议
+    GPL 不能改变协议
   
   
-    MPL修改出需要提供说明文档
+    MPL 修改出需要提供说明文档
   
 
 
 个人总结
 
-只看三个MIT,BSD,Apache其余都不用看了。
+只看三个MIT ,BSD ,Apache 就好了。
 
 
     </summary>
